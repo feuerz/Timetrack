@@ -10,14 +10,15 @@ use Migue\Timetrack\Config\Parameters;
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?php echo Parameters::$BASE_URL;?> assets/css/style.css">    
-        
+        <link rel="stylesheet" href="<?php echo Parameters::$BASE_URL?>assets/css/style.css">
         <title>Timetrack</title> 
     </head>
     <body>
         <header>
-            
-        </header>
+            <div class="main-header">
+            eve
+            </div>
+    </header>
 
         <main>
     </body>

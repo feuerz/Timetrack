@@ -8,6 +8,6 @@ class HomeController{
         $view= new ViewController();
         $view->view("views/home.php");
     }
-}
+} 
 
 ?>

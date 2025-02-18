@@ -13,7 +13,7 @@ $nameController = $nameController . (($_GET['controller']) ?? Parameters::$DEFAU
 
 $action = $_GET['action'] ?? Parameters::$DEFAULT_ACTION;
 
-var_dump($nameController);
+/*var_dump($nameController);*/
 
 if (class_exists($nameController)) {
     $controller = new $nameController();
