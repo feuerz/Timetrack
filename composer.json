@@ -1,0 +1,24 @@
+{
+    "name": "migue/timtetrack",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Migue\\Timetrack\\": "src/",
+            "Migue\\Timetrack\\Config\\": "src/Config/",
+            "Migue\\Timetrack\\Controllers\\": "src/Controllers/",
+            "Migue\\Timetrack\\Database\\": "src/Database/",
+            "Migue\\Timetrack\\Entities\\": "src/Entities/",
+            "Migue\\Timetrack\\Helpers\\": "src/Helpers/",
+            "Migue\\Timetrack\\Models\\": "src/Models/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Miguel Prieto Hernandez",
+            "email": "miguelph677@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^3.6"
+    }
+}
