@@ -4,12 +4,12 @@
     "autoload": {
         "psr-4": {
             "Migue\\Timetrack\\": "src/",
-            "Migue\\Timetrack\\Config\\": "src/Config/",
-            "Migue\\Timetrack\\Controllers\\": "src/Controllers/",
-            "Migue\\Timetrack\\Database\\": "src/Database/",
-            "Migue\\Timetrack\\Entities\\": "src/Entities/",
-            "Migue\\Timetrack\\Helpers\\": "src/Helpers/",
-            "Migue\\Timetrack\\Models\\": "src/Models/"
+            "Migue\\Timetrack\\Config\\": "src/config/",
+            "Migue\\Timetrack\\Controllers\\": "src/controllers/",
+            "Migue\\Timetrack\\Database\\": "src/database/",
+            "Migue\\Timetrack\\Entities\\": "src/entities/",
+            "Migue\\Timetrack\\Helpers\\": "src/helpers/",
+            "Migue\\Timetrack\\Models\\": "src/models/"
         }
     },
     "authors": [

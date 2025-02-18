@@ -22,27 +22,27 @@ class ComposerStaticInit50530d732950b8f394fe2c0af643d581
     public static $prefixDirsPsr4 = array (
         'Migue\\Timetrack\\Models\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src/Models',
+            0 => __DIR__ . '/../..' . '/src/models',
         ),
         'Migue\\Timetrack\\Helpers\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src/Helpers',
+            0 => __DIR__ . '/../..' . '/src/helpers',
         ),
         'Migue\\Timetrack\\Entities\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src/Entities',
+            0 => __DIR__ . '/../..' . '/src/entities',
         ),
         'Migue\\Timetrack\\Database\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src/Database',
+            0 => __DIR__ . '/../..' . '/src/database',
         ),
         'Migue\\Timetrack\\Controllers\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src/Controllers',
+            0 => __DIR__ . '/../..' . '/src/controllers',
         ),
         'Migue\\Timetrack\\Config\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src/Config',
+            0 => __DIR__ . '/../..' . '/src/config',
         ),
         'Migue\\Timetrack\\' => 
         array (

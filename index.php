@@ -8,11 +8,12 @@ use Migue\Timetrack\Controllers\ViewController;
 /*use Migue\Timetrack\Database\Conn;*/
 
 
-$nameController = "migue\Timetrack\Controllers\\";
+$nameController = "Migue\Timetrack\Controllers\\";
 $nameController = $nameController . (($_GET['controller']) ?? Parameters::$DEFAULT_CONTROLLER) . 'Controller';
 
 $action = $_GET['action'] ?? Parameters::$DEFAULT_ACTION;
 
+var_dump($nameController);
 
 if (class_exists($nameController)) {
     $controller = new $nameController();

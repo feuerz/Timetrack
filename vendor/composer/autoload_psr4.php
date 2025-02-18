@@ -6,11 +6,11 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Migue\\Timetrack\\Models\\' => array($baseDir . '/src/Models'),
-    'Migue\\Timetrack\\Helpers\\' => array($baseDir . '/src/Helpers'),
-    'Migue\\Timetrack\\Entities\\' => array($baseDir . '/src/Entities'),
-    'Migue\\Timetrack\\Database\\' => array($baseDir . '/src/Database'),
-    'Migue\\Timetrack\\Controllers\\' => array($baseDir . '/src/Controllers'),
-    'Migue\\Timetrack\\Config\\' => array($baseDir . '/src/Config'),
+    'Migue\\Timetrack\\Models\\' => array($baseDir . '/src/models'),
+    'Migue\\Timetrack\\Helpers\\' => array($baseDir . '/src/helpers'),
+    'Migue\\Timetrack\\Entities\\' => array($baseDir . '/src/entities'),
+    'Migue\\Timetrack\\Database\\' => array($baseDir . '/src/database'),
+    'Migue\\Timetrack\\Controllers\\' => array($baseDir . '/src/controllers'),
+    'Migue\\Timetrack\\Config\\' => array($baseDir . '/src/config'),
     'Migue\\Timetrack\\' => array($baseDir . '/src'),
 );
